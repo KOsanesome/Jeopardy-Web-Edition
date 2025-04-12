@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Jeopardy Board</title>
+        <link href="JeopardyStyles.css" rel="stylesheet">
+        <script src="Jeopardy.js" defer></script>
+        <script src="Q_and_A.js" defer></script>
+        <script src="Buttons.js" defer></script>
+    </head>
+
+    <body id="Board" onload="pageHandler.pageLoader()">
+        <!-- change the width to determine where the x and y positions need be-->
+        <div id="onTop">
+            <div class="rowFlex">
+                <p id="team1">Team 1:</p>
+                <p id="team2">Team 2:</p>
+                <p id="team3">Team 3:</p>
+                <p id="team4">Team 4:</p>
+                <button id="pause" onclick="pageHandler.newPage('Pause_Menu')">Pause</button>
+            </div>
+            <div id="canvasFrame">
+                <canvas id="canvas" style="border: 2px solid black" width="1150" height="600"></canvas>
+            </div>
+        </div>
+
+
+    </body>
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="Jeopardy.js" defer></script>
+        <script src="settingDesc.js" defer></script>
+        <link href="JeopardyStyles.css" rel="stylesheet">
+        <title>Settingz</title>
+    </head>
+    <body onload="pageHandler.pageLoader()">
+        <div id="canvasFrame">
+            <div class="background">
+                <!-- All settings on the canvas. TODO: Make a second settings column-->
+                <div id="buttonDiv">
+                    <button id="Back" type="button" onclick="pageHandler.previousPage()">Back</button>
+                </div>
+                <div id="fullSettings">
+                    <!-- first settings column-->
+                    <div class="settingHalf">
+                        <div class="settingsFlex">
+                            <p class="settingsText"># of Teams: </p>
+                            <p class="filler">1234</p>
+                            <input type="radio" id="#1" value="1" name="teamNum">
+                            <label for="#1">1</label>
+                            <input type="radio" id="#2" value="2" name="teamNum">
+                            <label for="#2">2</label>
+                            <input type="radio" id="#3" value="3" name="teamNum">
+                            <label for="#3">3</label>
+                            <input type="radio" id="#4" value="4" name="teamNum">
+                            <label for="#4">4</label>
+                            <p class="filler">1234</p>
+                            <button onmouseover="settingDescribe('teamNums')">
+                                <img src="Images/question.png" alt="question Circle" class="question">
+                            </button>
+                        </div>
+                        <div class="settingsFlex">
+                            <p class="settingsText">Point Scale:</p>
+                            <p class="filler">1234</p>
+                            <button type="button" onclick="settingHandler.change('decrease')">
+                                <img src="Images/Left_Arrow.png" alt="arrow" id="leftArrow">
+                            </button>
+                            <p style="margin: 16px;" id="scaleNum">1</p>
+                            <button type="button" onclick="settingHandler.change('increase')">
+                                <img src="Images/Left_Arrow.png" alt="arrow" id="rightArrow">
+                            </button>
+                            <p class="filler">12345</p>
+                            <button onmouseover="settingDescribe('scale')">
+                                <img src="Images/question.png" alt="question Circle" class="question">
+                            </button>
+                        </div>
+                        <div class="settingsFlex" id="PMode">
+                            <p class="settingsText">Punishment Mode:</p>
+                            <p class="filler">12345</p>
+                            <label id="switch">
+                                <input type="checkbox">
+                                <span class="slider round"></span>
+                            </label>
+                            <p class="filler">12345</p>
+                            <button onmouseover="settingDescribe('punish')">
+                                <img src="Images/question.png" alt="question Circle" class="question">
+                            </button>
+                        </div>
+                        <div class="settingsFlex">
+                            <p class="settingsText">Change Timer:</p>
+                            <p style="margin: 16px;"> </p>
+                            <input type="range" id="timerBar" min="0" max="5" value="1" oninput="settingHandler.timerSlider()">
+                            <p style="margin: 16px;" id="timerNum">10</p>
+                            <p class="filler">12345</p>
+                            <button onmouseover="settingDescribe('timer')">
+                                <img src="Images/question.png" alt="question Circle" class="question">
+                            </button>
+                        </div>
+                        <div class="settingsFlex">
+                            <p class="settingsText">Lifelines:</p>
+                            <p class="filler">12345</p>
+                            <label for="LL1">Free Pass</label>
+                            <input type="checkbox" id="LL1">
+                            <label for="LL2">Multiply</label>
+                            <input type="checkbox" id="LL2">
+                            <label for="LL3">Izanagi</label>
+                            <input type="checkbox" id="LL3">
+                            <p class="filler">12345</p>
+                            <button onmouseover="settingDescribe('LLSet1')">
+                                <img src="Images/question.png" alt="question Circle" class="question">
+                            </button>
+                        </div>
+                    </div>
+                    <!-- second setting column-->
+                    <div class="settingHalf">
+                        <p class="settingsText">Placeholder</p>
+                        <div class="settingsFlex">
+                            <p class="settingsText">Lifelines 2:</p>
+                            <p class="filler">12345</p>
+                            <label for="LL4">Hint</label>
+                            <input type="checkbox" id="LL4">
+                            <label for="LL5">Phone a Friend</label>
+                            <input type="checkbox" id="LL5">
+                            <label for="LL6">Izanami</label> <!--reset timer-->
+                            <input type="checkbox" id="LL6">
+                        </div>
+                        <p class="settingsText">Placeholder</p>
+                        <p class="settingsText">Placeholder</p>
+                        <div class="settingsFlex">
+                            <p class="settingsText">Lifelines 3:</p>
+                            <p class="filler">12345</p>
+                            <label for="LL7">1</label>
+                            <input type="checkbox" id="LL7">
+                            <label for="LL8">1</label>
+                            <input type="checkbox" id="LL8">
+                            <label for="LL9">1</label>
+                            <input type="checkbox" id="LL9">
+                        </div>
+                        <p class="settingsText">Placeholder</p>
+                    </div>
+                </div>
+                <div>
+                    <p class="settingsText" id="description">Description</p>
+                </div>
+                <div id="checkerz">
+                    <button id="restore" type="button" onclick="settingHandler.default()">Restore<br>Default</button>
+                    <button id="confirm" type="button" onclick="settingHandler.save()">Confirm</button>
+                </div>
+            </div>
+        </div>
+        
+    </body>
+</html>

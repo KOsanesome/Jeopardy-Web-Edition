@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Game Selection</title>
+        <link href="JeopardyStyles.css" rel="stylesheet">
+        <script src="Jeopardy.js" defer></script>
+        <style>
+            div{
+                background-image: url('Images/panel_background.png');
+                background-repeat: no-repeat;
+                background-size: contain;
+            }
+        </style>
+    </head>
+    <body class="stacked" onload="pageHandler.pageLoader()">
+        <button type="button" onclick="pageHandler.previousPage()">Back</button>
+        <div id="canvasFrame">
+            <canvas id="canvas" width="1150" height="800" style="border: 2px solid black"></canvas> 
+        </div>
+    </body>
+</html>

@@ -1,0 +1,152 @@
+{
+    "comment": "Guess the Pic/Anime",
+    "Column1":[
+        {
+            "Box1":[
+                {"Question": "Guess Character/100/Goku.jpeg", "Answer": "Dragon Ball (Z)/ Goku", "Hint": "You should be ashamed of yourself"},
+                {"Question": "Guess Character/100/Kakashi.jpeg", "Answer": "Naruto/ Kakashi Hatake", "Hint": "The famed copy ninja"},
+                {"Question": "Guess Character/100/Luffy.jpeg", "Answer": "One Peice/Luffy", "Hint": "Future Pirate King"}
+            ],
+            "Box2":[
+                {"Question": "Guess Character/200/Tamayo.jpeg", "Answer": "Demon Slayer/ Tamayo", "Hint": ""},
+                {"Question": "Guess Character/200/Kaiba.jpeg", "Answer": "Yugioh/ Seto Kaiba", "Hint": ""},
+                {"Question": "Guess Character/200/Saitama.jpeg", "Answer": "One Punch Man/ Saitama", "Hint": ""}
+            ],
+            "Box3":[
+                {"Question": "Guess Character/300/Decim.jpeg", "Answer": "Death Parade/ Decim", "Hint": "Nia's top pick"},
+                {"Question": "Guess Character/300/Ken Kaneki.jpeg", "Answer": "Tokyo Ghoul/ Ken Kaneki", "Hint": ""},
+                {"Question": "Guess Character/300/Kenny.png", "Answer": "Attack on Titan/ Kenny Ackerman", "Hint": "(hopefully you reworked this selection)"}
+            ],
+            "Box4":[
+                {"Question": "Guess Character/400/Jin Mori.jpeg", "Answer": "God of High School/ Jin Mori", "Hint": ""},
+                {"Question": "Guess Character/400/Kagome.jpeg", "Answer": "InuYasha/ Kagome", "Hint": ""},
+                {"Question": "Guess Character/400/Haruyuki.jpeg", "Answer": "Accim World/ Haruyuki", "Hint": ""}
+            ],
+            "Box5":[
+                {"Question": "Guess Character/500/Togusa.jpeg", "Answer": "Togusa- Ghost in the Shell", "Hint": ""},
+                {"Question": "Guess Character/500/Revy.jpeg", "Answer": "Revy- Black Lagoon", "Hint": ""},
+                {"Question": "Guess Character/500/Kyutaro.jpeg", "Answer": "Kyutaro- Buddy Daddies", "Hint": ""}
+            ]
+        }
+    ],
+    "comment": "OSTs",
+    "Column2":[
+        {
+            "Box1":[
+                {"Question": "Songs/Anime_Songs/Chainsaw Man.mp3", "Answer": "Kickback- Chainsaw Man OP (1)", "Hint": ""},
+                {"Question": "Songs/Anime_Songs/Again.mp3", "Answer": "Again- FMA Brotherhood OP 1", "Hint": ""},
+                {"Question": "Songs/Anime_Songs/Demon Slayer OP 1.mp3", "Answer": "Gurenge- Demon Slayer OP 1", "Hint": ""}
+            ],
+            "Box2":[
+                {"Question": "Songs/Anime_Songs/Toumei Datta Sekai.mp3", "Answer": "Toumei Datta Sekai- Naruto Shippuden OP 7", "Hint": "Revenge of the Pains"},
+                {"Question": "Songs/Anime_Songs/Unravel.mp3", "Answer": "Unravel- Tokyo Ghoul OP 1", "Hint": ""},
+                {"Question": "Songs/Anime_Songs/Inferno.mp3", "Answer": "Inferno- Fire Force OP 1", "Hint": "Fire, literally"}
+            ],
+            "Box3":[
+                {"Question": "Songs/Anime_Songs/Chemistry Period.mp3", "Answer": "Chemistry Period- FMA Brotherhood OP 4", "Hint": ""},
+                {"Question": "Songs/Anime_Songs/Flame.mp3", "Answer": "Flame- Naruto Shippuden ED 29", "Hint": ""},
+                {"Question": "Songs/Anime_Songs/Flyers.mp3", "Answer": "Flyers- Death Parade OP", "Hint": ""}
+            ],
+            "Box4":[
+                {"Question": "Songs/Anime_Songs/AoT Ending 6.m4a", "Answer": "Shougeki- Attack on Titan ED 6", "Hint": ""},
+                {"Question": "Songs/Anime_Songs/Hello Shooting Star.mp3", "Answer": "Hello Shooting Star- Assassination Classroom ED 1", "Hint": ""},
+                {"Question": "Songs/Anime_Songs/Overfly.mp3", "Answer": "Overfly- Sword Art Online ED 2", "Hint": ""}
+            ],
+            "Box5":[
+                {"Question": "Songs/Anime_Songs/Escape.mp3", "Answer": "Escape- Darling in the Franxx ED 5", "Hint": ""},
+                {"Question": "Songs/Anime_Songs/Shiki No Uta.mp3", "Answer": "Shiki No Uta- Samurai Champloo ED", "Hint": ""},
+                {"Question": "Songs/Anime_Songs/Last Game.mp3", "Answer": "Last Game- Steins Gate ED", "Hint": ""}
+            ]
+        }
+    ],
+    "comment": "Mainstream",
+    "Column3": [
+        {
+            "Box1":[
+                {"Question": "This is the name of the snake-like Micheal Jackson in Naruto", "Answer": "Orochimaru", "Hint": ""},
+                {"Question": "At the start of Shippuden, how many Akatsuki members exists?", "Answer": "10", "Hint": ""},
+                {"Question": "Name the 3 sannin", "Answer": "Jiraiya, Tsunade, and Orochimaru", "Hint": ""}
+            ],
+            "Box2":[
+                {"Question": "Who is the author of Dragon Ball?", "Answer": "Akira Toriyama", "Hint": ""},
+                {"Question": "Goku and other character's transportation tecnique is called:", "Answer": "Instant Transmission", "Hint": "Has the fundamental concept of Flying Raijin"},
+                {"Question": "This is the first wish ever made in Dragon Ball?", "Answer": "Some underwear", "Hint": "very important piece of clothing"}
+            ],
+            "Box3":[
+                {"Question": "Abilities in MHA are called:", "Answer": "Quirks", "Hint": ""},
+                {"Question": "", "Answer": "", "Hint": ""},
+                {"Question": "When did the MHA manga first release?", "Answer": "July 7th 2014", "Hint": ""}
+            ],
+            "Box4":[
+                {"Question": "How many HxH fighters are in Jump Force", "Answer": "4 or 5", "Hint": ""},
+                {"Question": "Hisoka's birthday:", "Answer": "June 6, 1971", "Hint": ""},
+                {"Question": "", "Answer": "", "Hint": ""}
+            ],
+            "Box5":[
+                {"Question": "How tall is beast titan", "Answer": "17 meters", "Hint": ""},
+                {"Question": "Name all 9 titans", "Answer": "(will be told)", "Hint": ""},
+                {"Question": "How many OVAs does AoT have?", "Answer": "8", "Hint": ""}
+            ]
+        }
+    ],
+    "comment": "Death Note",
+    "Column4":[
+        {
+            "Box1":[
+                {"Question": "The 2 MCs", "Answer": "Light and L (AKA: GOAT1 and GOAT2)", "Hint": ""},
+                {"Question": "The number of shinigami that enter the world through the show", "Answer": "3", "Hint": ""},
+                {"Question": "Ryuk's favorite food", "Answer": "Apples", "Hint": ""}
+            ],
+            "Box2":[
+                {"Question": "What do you NORMALLY need for the Death Note to work", "Answer": "Name and Face", "Hint": ""},
+                {"Question": "The eye deal takes off what % of your lifespan", "Answer": "50%/half", "Hint": ""},
+                {"Question": "What is L's thing: eating sweets or playing with toys", "Answer": "Eating sweets", "Hint": ""}
+            ],
+            "Box3":[
+                {"Question": "How many cameras did L install in Light's room", "Answer": "64", "Hint": ""},
+                {"Question": "Who was Kira's first victim", "Answer": "A school shooter", "Hint": ""},
+                {"Question": "How many members partcipate in the secret meetings at the start of the Yotsuba Arc?", "Answer": "8", "Hint": ""}
+            ],
+            "Box4":[
+                {"Question": "How many notes can be on earth at one time", "Answer": "7", "Hint": ""},
+                {"Question": "How many pages does the Death Note have", "Answer": "Infinite", "Hint": ""},
+                {"Question": "Ryuk wanted to play this video game", "Answer": "Mario Golf", "Hint": ""}
+            ],
+            "Box5":[
+                {"Question": "L's brain power increases by x% based on the way he sits", "Answer": "40%", "Hint": ""},
+                {"Question": "How long were Light and Misa imprisoned (estimation fine)", "Answer": "at least 50 days", "Hint": "Spooky time"},
+                {"Question": "The date of L's birthday (year not needed)", "Answer": "", "Hint": "divisable by 2, 5, 10, and 25"}
+            ]
+        }
+    ],
+    "comment": "Geography",
+    "Column5":[
+        {
+            "Box1":[
+                {"Question": "Geography/Anime_Geography/Shiganshina.jpeg", "Answer": "Shiganshina- Attack on Titan", "Hint": ""},
+                {"Question": "Geography/Anime_Geography/Soul_Society.jpeg", "Answer": "Soul Society- Bleach", "Hint": ""},
+                {"Question": "Geography/Anime_Geography/Konoha.jpeg", "Answer": "Konoha/Hidden Leaf Village- Naruto", "Hint": "So there was this swing..."}
+            ],
+            "Box2":[
+                {"Question": "Geography/Anime_Geography/Bathhouse.jpeg", "Answer": "Bathhouse- Spirited Away", "Hint": ""},
+                {"Question": "Geography/Anime_Geography/Axel.jpeg", "Answer": "Axel- Konosuba", "Hint": ""},
+                {"Question": "Geography/Anime_Geography/Anteiku.jpeg", "Answer": "Antegu- Tokyo Ghoul", "Hint": ""}
+            ],
+            "Box3":[
+                {"Question": "Geography/Anime_Geography/Sukuna's_Domain.jpeg", "Answer": "Sukuna's Domain/Malevolent Shrine- Jujutsu Kaisen", "Hint": ""},
+                {"Question": "Geography/Anime_Geography/Quindecim.jpeg", "Answer": "Quindecim- Death Parade", "Hint": ""},
+                {"Question": "Geography/Anime_Geography/Xerxes.jpeg", "Answer": "Xerxes- Full Metal Alchemist", "Hint": ""}
+            ],
+            "Box4":[
+                {"Question": "Geography/Anime_Geography/Maze_Castle.jpeg", "Answer": "Maze Castle/Spirit World- Yu Yu Hakusho", "Hint": ""},
+                {"Question": "Geography/Anime_Geography/PK_Academy.jpeg", "Answer": "PK Academy- Saiki K", "Hint": ""},
+                {"Question": "Geography/Anime_Geography/Ishigami_Village.jpeg", "Answer": "Ishigami Village- Dr. Stone", "Hint": ""}
+            ],
+            "Box5":[
+                {"Question": "Geography/Anime_Geography/Domino_City.jpeg", "Answer": "Domino City- Yugioh", "Hint": ""},
+                {"Question": "Geography/Anime_Geography/Aincrad.jpeg", "Answer": "Aincrad- Sword Art Online", "Hint": ""},
+                {"Question": "Geography/Anime_Geography/Kamome_Academy.jpeg", "Answer": "Kamome Academy- Toilet Kun", "Hint": ""}
+            ]
+        }
+    ]
+  }

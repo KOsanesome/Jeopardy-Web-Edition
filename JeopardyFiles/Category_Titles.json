@@ -1,0 +1,24 @@
+{
+    "AnimeTitles":[
+        [["Guess the Anime", 25, 30], ["or", 95, 50], ["the Character", 35, 70]],
+        [["Guess the OP/ED", 20, 50]],
+        [["Mainstream", 50, 50]],
+        [["Death Note", 50, 50]],
+        [["Catchphrase +", 35, 40], ["Quotes", 70, 70]]
+    ],
+    "FromSoftTitles":[
+        [["Demons", 65, 40], ["Souls", 70, 65]],
+        [["Dark Souls", 50, 40], ["Trilogy", 65, 60]],
+        [["Bloodborne", 50, 55]],
+        [["Sekiro", 70, 55]],
+        [["Elden", 70, 40], ["Ring", 75, 60]]
+    ],
+    "Anime_RecentTitles":[
+        [["2018", 75, 30], ["+", 95, 50], ["2019", 75, 70]],
+        [["2020", 80, 55]],
+        [["2021", 80, 55]],
+        [["2022", 80, 55]],
+        [["2023", 75, 30], ["+", 95, 50], ["2024", 75, 70]]
+    ]
+
+}

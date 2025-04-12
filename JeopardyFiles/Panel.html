@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <link href="JeopardyStyles.css" rel="stylesheet">
+            <script src="Jeopardy.js" defer></script>
+            <title>Questions</title>
+            
+            <style>
+                body{
+                    background-color: rgb(244, 244, 244);
+                }
+            </style>
+        </head>
+        <body onload="panelLoad()" class="stacked">
+            <p id="realTimer">10</p>
+            <div id="questionBox">
+                <p id="q">Question: </p>
+                <img src="" id="pic">
+                <audio controls muted id="mp3Player">
+                    <source id="song" src="">
+                </audio>
+            </div>
+            <!--make hidden, unhide using javscript-->
+            <p id = "a">Answer: </p>
+            <div></div>
+            <p id = "hint">Hint: </p>
+            <div class="rowFlex">
+                <a href="Board.html" >
+                    <img id="confirm" src="Images/Check.png" onclick="rightOrWrong('right')">
+                </a>
+                <button type="button" id="reveal" onclick="reveal()">Show Answer</button>
+                <a href="Board.html">
+                    <img src="Images/Wrong.png" onclick="rightOrWrong('wrong')">
+                </a>
+            </div>
+            <div id="lifeLines">
+                <!-- LLBx means Life Line Button x-->
+                <div class="rowFlexMini">
+                    <button id="LLB1" onclick="buttonHandler.freePass()">Free Pass</button>
+                    <button id="LLB2" onclick="buttonHandler.Multiply()">Multiply</button>
+                    <button id="LLB3" onclick="buttonHandler.Izanagi()">Izanagi</button>
+                </div>
+                <div class="rowFlexMini">
+                    <button id="LLB4" onclick="buttonHandler.showHint()">Hint</button>
+                    <button id="LLB5">5</button>
+                    <button id="LLB6" onclick="buttonHandler.Izanami()">Izanami</button>
+                </div>
+                <div class="rowFlexMini">
+                    <button id="LLB7">7</button>
+                    <button id="LLB8">8</button>
+                    <button id="LLB9">9</button>
+                </div>
+            </div>
+            <div id="bugButton">
+                <button type="button" onclick="buttonHandler.reportBug()">Report Bug</button>
+                <input type="text" id="bugInput">
+            </div>
+        </body>
+    </html>

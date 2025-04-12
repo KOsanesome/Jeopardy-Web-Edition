@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <link href="JeopardyStyles.css" rel="stylesheet">
+        <script src="Jeopardy.js" defer></script>
+        <title>Jeopardy</title>
+    </head>
+
+    <body id="Home" onload="titleLoad()">
+        <div id="homeBackground">
+            <div id="TopLevel">
+                <p class="filler">123</p>
+                <p id="title">Jeopardy</p>
+                <p class="filler">123</p>
+            </div>
+            <div id="Main_Buttons">
+                <button type="button" class="MainButtons" id="Start" onclick="pageHandler.newPage('BoardSelect')">Start</button>
+                <button type="button" class="MainButtons" id="Music" onclick="pageHandler.newPage('UserSuggest')">Suggest a Question</button>
+                <button type="button" class="MainButtons" id="Teams" onclick="pageHandler.newPage('TeamPage')"># of Teams</button>
+            </div>
+            <div id="bottomButtons">
+                <button type="button" onclick="pageHandler.newPage('Settings')">
+                    <img src="Images/Settings.png" id="Settings" alt="settings">
+                </button>
+                <button type="button" onclick="pageHandler.newPage('Rules')">
+                    <img src="Images/Rules.png" alt="Rules" id="Rules">
+                </button>
+            </div>
+        </div>
+    </body>
+</html>
