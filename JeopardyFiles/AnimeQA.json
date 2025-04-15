@@ -1,4 +1,4 @@
-{
+b{
     "comment": "Guess the Pic/Anime",
     "Column1":[
         {
@@ -84,7 +84,7 @@
             ],
             "Box5":[
                 {"Question": "How tall is beast titan", "Answer": "17 meters", "Hint": ""},
-                {"Question": "Name all 9 titans", "Answer": "(will be told)", "Hint": ""},
+                {"Question": "Name all 9 titans", "Answer": "(will be told verbally)", "Hint": ""},
                 {"Question": "How many OVAs does AoT have?", "Answer": "8", "Hint": ""}
             ]
         }
